@@ -13,6 +13,7 @@ include_directories(
 )
 
 file(GLOB L_SRCS "src/*.c")
+list(APPEND L_SRCS "${CMAKE_CURRENT_SOURCE_DIR}/include/ini/ini.c")
 
 add_executable(livd ${L_SRCS})
 target_link_libraries(livd PRIVATE c)

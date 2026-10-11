@@ -1,0 +1,3 @@
+[submodule "include/ini"]
+	path = include/ini
+	url = https://github.com/benhoyt/inih
